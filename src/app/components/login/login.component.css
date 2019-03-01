@@ -1,0 +1,34 @@
+.wrapper{
+  margin-top: 200px;
+  max-width: 300px;
+  height: 350px;
+  margin-left: 600px;
+  padding: 20px;
+  border: ridge;
+}
+.login-form{
+  text-align: center;
+  font-size: 44px;
+}
+.example-container{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.name{
+
+}
+.login-form{
+font-size: 33px;
+}
+.button-add{
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.login-submit{
+padding: 11px;
+}
+

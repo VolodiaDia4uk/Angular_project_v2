@@ -1,0 +1,16 @@
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.logout {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.navigations{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 40%;
+}

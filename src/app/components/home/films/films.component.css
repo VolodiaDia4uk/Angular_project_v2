@@ -1,0 +1,36 @@
+/*mat-form-field{*/
+  /*display: flex;*/
+  /*justify-content: center;*/
+  /*width: 102% !important;*/
+/*}*/
+.films-form{
+  height: 40%;
+}
+.img-detail{
+width: 20%;
+  height: 30%;
+}
+.input-form{
+  min-width: 150px;
+  max-width: 300px;
+  width: 100%;
+  margin-left: 600px;
+
+}
+.form-width{
+  width: 100%;
+}
+
+.film {
+  width: 100%;
+  height: 150px;
+}
+
+.film-list {
+  height: 100%;
+  width: 100%;
+}
+.button-add{
+  margin-top: 11%;
+  background-color: lightslategrey;
+}

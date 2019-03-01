@@ -1,0 +1,13 @@
+.map-wrapper{
+  display: flex;
+}
+.search-field{
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.btn{
+  margin-left: 10px;
+}

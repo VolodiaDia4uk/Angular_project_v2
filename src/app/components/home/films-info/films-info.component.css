@@ -1,0 +1,14 @@
+.films-class{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.image-info{
+ max-width: 300px;
+}
+
+.film-info {
+  width: 60%;
+}

@@ -1,0 +1,18 @@
+<div class="map-wrapper">
+  <div #gmap style="width:60%;height: 700px"></div>
+  <div class="search-field">
+    <mat-form-field >
+      <input
+        type="text"
+        matInput
+        placeholder="Enter address"
+        [formControl]="search"
+        autocomplete="off"
+        #input
+      >
+    </mat-form-field>
+
+      <button mat-raised-button  class="btn btn-primary" (click)="findMe()"><mat-icon>where_to_vote</mat-icon>Find me</button>
+
+  </div>
+</div>

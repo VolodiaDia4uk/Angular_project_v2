@@ -1,0 +1,81 @@
+<div *ngIf="responseValue" class="films-class">
+  <div class="image-info">
+  <img  [src]="this.responseValue.Poster !== 'N/A' ? this.responseValue.Poster : 'data:image/png;base64,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'"/>
+  </div>
+  <div class="film-info">
+      <ul>
+        <li>
+        Actors:{{responseValue.Actors}}
+        </li>
+        <li>
+        Awards: {{responseValue.Awards}}
+        </li>
+        <li>
+        BoxOffice: {{responseValue.BoxOffice}}
+        </li>
+        <li>
+        Country: {{responseValue.Country}}
+        </li>
+        <li>
+        DVD: {{responseValue.DVD}}
+        </li>
+        <li>
+        Director: {{responseValue.Director}}
+        </li>
+        <li>
+        Genre: {{responseValue.Genre}}
+        </li>
+        <li>
+        Language: {{responseValue.Language}}
+        </li>
+        <li>
+        Metascore: {{responseValue.Metascore}}
+        </li>
+        <li>
+        Plot: {{responseValue.Plot}}
+        </li>
+        <li>
+        Production: {{responseValue.Production}}
+        </li>
+        <li>
+        Rated: {{responseValue.Rated}}
+        </li>
+        <li>
+        Released: {{responseValue.Released}}
+        </li>
+        <li>
+        Response: {{responseValue.Response}}
+        </li>
+        <li>
+        Runtime: {{responseValue.Runtime}}
+        </li>
+        <li>
+        Title: {{responseValue.Title}}
+        </li>
+        <li>
+        Type: {{responseValue.Type}}
+        </li>
+        <li>
+        Website: {{responseValue.Website}}
+        </li>
+        <li>
+        Writer: {{responseValue.Writer}}
+        </li>
+        <li>
+        Year: {{responseValue.Year}}
+        </li>
+        <li>
+        imdbID: {{responseValue.imdbID}}
+        </li>
+        <li>
+        imdbRating: {{responseValue.imdbRating}}
+        </li>
+        <li>
+        imdbRating: {{responseValue.imdbRating}}
+        </li>
+  </ul>
+    <div>
+      <button mat-raised-button class="button-add" (click)="addToFavourite(responseValue); $event.stopPropagation()"><mat-icon>favorite</mat-icon>add to favourite</button>
+    </div>
+  </div>
+</div>
